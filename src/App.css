@@ -36,3 +36,55 @@
     transform: rotate(360deg);
   }
 }
+
+/*estilos header*/
+.Header{
+  height: 10vh;
+  width: 100%;
+  background: black;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Footer{
+  height: 8vh;
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 82vh;
+  width: 100%;
+  background: #F7C50A;
+}
+
+.login-tamano{
+  width: 350px;
+  height: 350px;
+  background: black;
+  color: white;
+}
+
+.contenedor-boton-login{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+.contenedor-boton-login a{
+  text-decoration: none;
+  color:white;
+}
+/*estilos tabla gestionar*/
+.tabla-gestionar{
+  padding: 20px 50px;
+}
