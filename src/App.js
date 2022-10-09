@@ -1,15 +1,35 @@
 import './App.css';
 import React from 'react';
 import {BrowserRouter as Router,Routes, Route, Navigate,useRoutes} from 'react-router-dom';
-import Principall from './componentes/paginas/principal';
-import Inicio from './componentes/gestionar/gestionarUsuario'
-import Tabla from './componentes/tablas/gestionarUsuario'
+import Principal from './componentes/paginas/principal';
+import Administrador from './componentes/gestionar/gestionarUsuario'
+import TablaUsuarios from './componentes/tablas/tablaUsuarios'
+import TablaEmpleados from './componentes/tablas/tablaEmpleados';
+import InsertarUsuario from './componentes/insertar/usuario'
+import InsertarEmpleado from './componentes/insertar/empleado'
+import Usuario from './componentes/gestionar/gestionarClientes'
+import TablaClientes from './componentes/tablas/tablaClientes'
+import TablaAutomiviles from './componentes/tablas/tablaVehiculos'
+import RegistroIngreso from './componentes/insertar/ingresos'
+import RegistroCliente from './componentes/insertar/cliente'
+
 function App() {
   return(
     <Router>
       <Routes>
-          <Route path="/" element={<Principall />} />
-          <Route path="/logeo" element={<Tabla />} />
+          <Route path="/" element={<Principal/>}/>
+          <Route path="/logeo" element={<Administrador/>}>
+              <Route index element={<TablaUsuarios/>}></Route>
+              <Route path='empleados' element={<TablaEmpleados/>}></Route>  
+              <Route path='insertuser' element={<InsertarUsuario/>}></Route>
+              <Route path="empleados/insertEmp" element={<InsertarEmpleado/>}></Route>
+          </Route>
+          <Route path="/gestionar" element={<Usuario/>}> 
+              <Route index element={<TablaClientes/>}></Route>
+              <Route path="automoviles" element={<TablaAutomiviles/>}></Route>
+              <Route path="registroIngreso" element={<RegistroIngreso/>}></Route>
+              <Route path="insertCli" element={<RegistroCliente/>}></Route>
+          </Route>
         </Routes>
     </Router>
   )

@@ -1,4 +1,4 @@
-import Nav from './../navegacion/navAdmin'
+import Nav from './../navegacion/navUsuario'
 import Tabla from '../tablas/tablaUsuarios'
 import { Outlet } from 'react-router-dom'
 import Footer from './../piesdepagina/Footer'

@@ -42,7 +42,7 @@ const Login=()=>{
                     </div>
                     <div className="card-body">
                         <div className="mb-3">
-                          <label for="" className="form-label">Usuario</label>
+                          <label for="" className="">Usuario</label>
                           <input type="text" onChange={capturarDatos} className="form-control" name="usuario" id="" aria-describedby="helpId" placeholder="Usuario"/>
                           <small id="helpId" className="form-text text-muted">Usuario</small>
                         </div>

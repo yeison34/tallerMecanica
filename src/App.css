@@ -76,7 +76,6 @@
 .contenedor-boton-login{
   display: flex;
   align-items: center;
-  justify-content: space-between;
   margin: 30px 0;
 }
 
@@ -87,4 +86,65 @@
 /*estilos tabla gestionar*/
 .tabla-gestionar{
   padding: 20px 50px;
+  height: 82vh;
+}
+
+.botones-gestion{
+  margin: 0 5px;
+}
+
+.hiper{
+  text-decoration: none;
+  color: azure;
+}
+
+.hiper:hover{
+  background: #F7C50A;
+}
+
+/*Registrar Usuarios*/
+
+
+.inputs:focus{
+  outline: none;
+  box-shadow: 0 0 5px rgb(68, 255, 246);
+}
+
+.texto label{
+  display: flex;
+  float: right;
+  align-items: center;
+  font-weight: bold;
+}
+
+.container{
+  width: 500px;
+}
+
+.contenedor{
+  width: 100%;
+  background: rgb(233, 229, 229);
+}
+
+.boton{
+  padding: 50px 0px;
+}
+
+.boton button{  
+  width: 100px;
+  float: right;
+}
+
+.contenedor-ingresos{
+  width: 100%;
+}
+
+@media only screen and (width:825px){
+    .seccion{
+      height: 100vh;
+    }
+
+    .contenedor{
+      width: 100%;
+    }
 }
