@@ -85,8 +85,21 @@
 }
 /*estilos tabla gestionar*/
 .tabla-gestionar{
-  padding: 20px 50px;
   height: 82vh;
+}
+
+.tabla-gestionar-tamano{
+  padding: 5px 20px;
+  height: 72vh;
+  overflow: auto;
+}
+
+
+.titulos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
 }
 
 .botones-gestion{
@@ -137,6 +150,12 @@
 
 .contenedor-ingresos{
   width: 100%;
+  height: 82vh;
+}
+
+.centrar{
+  display: flex;
+  justify-content: center;
 }
 
 @media only screen and (width:825px){

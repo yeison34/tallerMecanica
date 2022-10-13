@@ -2,7 +2,7 @@ import {Link} from 'react-router-dom'
 const Tabla=()=>{
     return(
                 <div className="tabla-gestionar">
-                        <table class="table">
+                        <table className="table">
                             <thead>
                                 <tr>
                                     <th scope="col">Placa</th>
@@ -15,7 +15,7 @@ const Tabla=()=>{
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr class="">
+                                <tr className="">
                                     <td>AAA-333</td>
                                     <td>Camion</td>
                                     <td>2019</td>

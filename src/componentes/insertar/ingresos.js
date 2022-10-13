@@ -5,16 +5,16 @@ const Tabla=()=>{
                     <div className="row">
                             <div className="col-4">
                                 <div className="row">
-                                    <div class="col-5">
-                                        <label for="" class="form-label">Nombre Cliente</label>
+                                    <div className="col-5">
+                                        <label htmlFor="" className="form-label">Nombre Cliente</label>
                                     </div>
                                     <div className="col-7">
                                         <div className="row">  
                                             <input type="text"
-                                            class="form-control" name="" id="" aria-describedby="helpId" placeholder="Nombre Cliente"/>
+                                            className="form-control" name="" id="" aria-describedby="helpId" placeholder="Nombre Cliente"/>
                                         </div>
                                         <div className="row">
-                                            <small id="helpId" class="form-text text-muted">Help text</small>
+                                            <small id="helpId" className="form-text text-muted">Help text</small>
                                         </div>
                                     </div>
                                 </div>
@@ -22,16 +22,16 @@ const Tabla=()=>{
 
                             <div className="col-4">
                                 <div className="row">
-                                    <div class="col-5">
-                                        <label for="" class="form-label">Placa Vehiculo</label>
+                                    <div className="col-5">
+                                        <label htmlFor="" className="form-label">Placa Vehiculo</label>
                                     </div>
                                     <div className="col-7">
                                         <div className="row">  
                                             <input type="text"
-                                            class="form-control" name="" id="" aria-describedby="helpId" placeholder="Placa Vehiculo"/>
+                                            className="form-control" name="" id="" aria-describedby="helpId" placeholder="Placa Vehiculo"/>
                                         </div>
                                         <div className="row">
-                                            <small id="helpId" class="form-text text-muted">Help text</small>
+                                            <small id="helpId" className="form-text text-muted">Help text</small>
                                         </div>
                                     </div>
                                 </div>
@@ -39,16 +39,16 @@ const Tabla=()=>{
                     
                         <div className="col-4">
                                 <div className="row">
-                                    <div class="col-5">
-                                        <label for="" class="form-label">Empleado/Trabaja</label>
+                                    <div className="col-5">
+                                        <label htmlFor="" className="form-label">Empleado/Trabaja</label>
                                     </div>
                                     <div className="col-7">
                                         <div className="row">  
                                             <input type="text"
-                                            class="form-control" name="" id="" aria-describedby="helpId" placeholder="Empleado Encargado"/>
+                                            className="form-control" name="" id="" aria-describedby="helpId" placeholder="Empleado Encargado"/>
                                         </div>
                                         <div className="row">
-                                            <small id="helpId" class="form-text text-muted">Help text</small>
+                                            <small id="helpId" className="form-text text-muted">Help text</small>
                                         </div>
                                     </div>
                                 </div>
@@ -59,8 +59,8 @@ const Tabla=()=>{
                 <div className="row">
                     <div className="col-4">
                         <div className="row">
-                            <div class="col-5">
-                                <label for="" class="form-label">Tipo de Trabajo</label>
+                            <div className="col-5">
+                                <label htmlFor="" className="form-label">Tipo de Trabajo</label>
                             </div>
                             <div className="col-7">
                                 <div className="row">  
@@ -71,7 +71,7 @@ const Tabla=()=>{
                                         </select>
                                 </div>
                                 <div className="row">
-                                    <small id="helpId" class="form-text text-muted">Help text</small>
+                                    <small id="helpId" className="form-text text-muted">Help text</small>
                                 </div>
                             </div>
                         </div>
@@ -79,16 +79,16 @@ const Tabla=()=>{
 
                     <div className="col-4">
                             <div className="row">
-                                <div class="col-5">
-                                    <label for="" class="form-label">Fecha Ingreso</label>
+                                <div className="col-5">
+                                    <label htmlFor="" className="form-label">Fecha Ingreso</label>
                                 </div>
                                 <div className="col-7">
                                     <div className="row">  
                                         <input type="date"
-                                        class="form-control" name="" id="" aria-describedby="helpId" placeholder=""/>
+                                        className="form-control" name="" id="" aria-describedby="helpId" placeholder=""/>
                                     </div>
                                     <div className="row">
-                                        <small id="helpId" class="form-text text-muted">Help text</small>
+                                        <small id="helpId" className="form-text text-muted">Help text</small>
                                     </div>
                                 </div>
                             </div>
@@ -96,16 +96,16 @@ const Tabla=()=>{
                     
                     <div className="col-4">
                             <div className="row">
-                                <div class="col-5">
-                                    <label for="" class="form-label">Fecha Entrega</label>
+                                <div className="col-5">
+                                    <label htmlFor="" className="form-label">Fecha Entrega</label>
                                 </div>
                                 <div className="col-7">
                                     <div className="row">  
                                         <input type="date"
-                                        class="form-control" name="" id="" aria-describedby="helpId" placeholder=""/>
+                                        className="form-control" name="" id="" aria-describedby="helpId" placeholder=""/>
                                     </div>
                                     <div className="row">
-                                        <small id="helpId" class="form-text text-muted">Help text</small>
+                                        <small id="helpId" className="form-text text-muted">Help text</small>
                                     </div>
                                 </div>
                             </div>
@@ -116,16 +116,16 @@ const Tabla=()=>{
                 <div className="row">
                             <div className="col-4">
                                 <div className="row">
-                                    <div class="col-5">
-                                        <label for="" class="form-label">Descripción</label>
+                                    <div className="col-5">
+                                        <label htmlFor="" className="form-label">Descripción</label>
                                     </div>
                                     <div className="col-7">
                                         <div className="row">  
                                             <input type="text"
-                                            class="form-control" name="" id="" aria-describedby="helpId" placeholder="Descripción"/>
+                                            className="form-control" name="" id="" aria-describedby="helpId" placeholder="Descripción"/>
                                         </div>
                                         <div className="row">
-                                            <small id="helpId" class="form-text text-muted">Help text</small>
+                                            <small id="helpId" className="form-text text-muted">Help text</small>
                                         </div>
                                     </div>
                                 </div>
@@ -133,16 +133,16 @@ const Tabla=()=>{
 
                             <div className="col-4">
                                 <div className="row">
-                                    <div class="col-5">
-                                        <label for="" class="form-label">Observación</label>
+                                    <div className="col-5">
+                                        <label htmlFor="" className="form-label">Observación</label>
                                     </div>
                                     <div className="col-7">
                                         <div className="row">  
                                             <input type="text"
-                                            class="form-control" name="" id="" aria-describedby="helpId" placeholder="Observación"/>
+                                            className="form-control" name="" id="" aria-describedby="helpId" placeholder="Observación"/>
                                         </div>
                                         <div className="row">
-                                            <small id="helpId" class="form-text text-muted">Help text</small>
+                                            <small id="helpId" className="form-text text-muted">Help text</small>
                                         </div>
                                     </div>
                                 </div>

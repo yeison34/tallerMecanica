@@ -13,105 +13,105 @@ const Insertar=()=>{
                     <div className="centrar">
                         <div className="row">
                             <div className="col-5 texto">
-                                  <label for="" class="form-label">*Cedula:</label>
+                                  <label htmlForm="" className="form-label">*Cedula:</label>
                             </div>
                             <div className="col-7">
                                 <div className="row">
                                 <input type="text"
-                                    class="form-control" name="" id="" aria-describedby="helpId" placeholder="Cedula"/>
+                                    className="form-control" name="" id="" aria-describedby="helpId" placeholder="Cedula"/>
                                 </div>
                                 <div className="row"> 
-                                    <small id="helpId" class="form-text text-muted">Help text</small>
+                                    <small id="helpId" className="form-text text-muted">Help text</small>
                                 </div>    
                             </div>
                         </div>
 
                         <div className="row">
                             <div className="col-5 texto">
-                                  <label for="" class="form-label">*Nombre:</label>
+                                  <label htmlForm="" className="form-label">*Nombre:</label>
                             </div>
                             <div className="col-7">
                                 <div className="row">
                                 <input type="text"
-                                    class="form-control" name="" id="" aria-describedby="helpId" placeholder="Nombre"/>
+                                    className="form-control" name="" id="" aria-describedby="helpId" placeholder="Nombre"/>
                                 </div>
                                 <div className="row"> 
-                                    <small id="helpId" class="form-text text-muted">Help text</small>
+                                    <small id="helpId" className="form-text text-muted">Help text</small>
                                 </div>    
                             </div>
                         </div>
 
                         <div className="row">
                             <div className="col-5 texto">
-                                  <label for="" class="form-label">*Apellido(s):</label>
+                                  <label htmlForm="" className="form-label">*Apellido(s):</label>
                             </div>
                             <div className="col-7">
                                 <div className="row">
                                 <input type="text"
-                                    class="form-control" name="" id="" aria-describedby="helpId" placeholder="Apellido(s)"/>
+                                    className="form-control" name="" id="" aria-describedby="helpId" placeholder="Apellido(s)"/>
                                 </div>
                                 <div className="row"> 
-                                    <small id="helpId" class="form-text text-muted">Help text</small>
+                                    <small id="helpId" className="form-text text-muted">Help text</small>
                                 </div>    
                             </div>
                         </div>
 
                         <div className="row">
                             <div className="col-5 texto">
-                                  <label for="" class="form-label">*Fecha  de Nacimiento:</label>
+                                  <label htmlForm="" className="form-label">*Fecha  de Nacimiento:</label>
                             </div>
                             <div className="col-7">
                                 <div className="row">
                                 <input type="date"
-                                    class="form-control" name="" id="" aria-describedby="helpId" placeholder=""/>
+                                    className="form-control" name="" id="" aria-describedby="helpId" placeholder=""/>
                                 </div>
                                 <div className="row"> 
-                                    <small id="helpId" class="form-text text-muted">Help text</small>
+                                    <small id="helpId" className="form-text text-muted">Help text</small>
                                 </div>    
                             </div>
                         </div>
 
                         <div className="row">
                             <div className="col-5 texto">
-                                  <label for="" class="form-label">*Dirección:</label>
+                                  <label htmlForm="" className="form-label">*Dirección:</label>
                             </div>
                             <div className="col-7">
                                 <div className="row">
                                 <input type="text"
-                                    class="form-control" name="" id="" aria-describedby="helpId" placeholder="Dirección"/>
+                                    className="form-control" name="" id="" aria-describedby="helpId" placeholder="Dirección"/>
                                 </div>
                                 <div className="row"> 
-                                    <small id="helpId" class="form-text text-muted">Help text</small>
+                                    <small id="helpId" className="form-text text-muted">Help text</small>
                                 </div>    
                             </div>
                         </div>
 
                         <div className="row">
                             <div className="col-5 texto">
-                                  <label for="" class="form-label">*Telefono:</label>
+                                  <label htmlForm="" className="form-label">*Telefono:</label>
                             </div>
                             <div className="col-7">
                                 <div className="row">
                                 <input type="text"
-                                    class="form-control" name="" id="" aria-describedby="helpId" placeholder="Telefono"/>
+                                    className="form-control" name="" id="" aria-describedby="helpId" placeholder="Telefono"/>
                                 </div>
                                 <div className="row"> 
-                                    <small id="helpId" class="form-text text-muted">Help text</small>
+                                    <small id="helpId" className="form-text text-muted">Help text</small>
                                 </div>    
                             </div>
                         </div>
 
                         <div className="row">
                             <div className="col-5 texto">
-                                  <label for="" class="form-label">*Ciudad:</label>
+                                  <label htmlForm="" className="form-label">*Ciudad:</label>
                             </div>
                             <div className="col-7">
                                 <div className="row">
                                 <input type="text"
-                                    class="form-control" name="" id="" aria-describedby="helpId" placeholder="Ciudad"/>
+                                    className="form-control" name="" id="" aria-describedby="helpId" placeholder="Ciudad"/>
                                 </div>
                                 <div className="row"> 
-                                    <small id="helpId" class="form-text text-muted">Help text</small>
+                                    <small id="helpId" className="form-text text-muted">Help text</small>
                                 </div>    
                             </div>
                         </div>
@@ -125,30 +125,30 @@ const Insertar=()=>{
                     <div className="centrar">
                         <div className="row">
                             <div className="col-5 texto">
-                                  <label for="" class="form-label">*Usuario:</label>
+                                  <label htmlForm="" className="form-label">*Usuario:</label>
                             </div>
                             <div className="col-7">
                                 <div className="row">
                                 <input type="text"
-                                    class="form-control" name="" id="" aria-describedby="helpId" placeholder="Usuario"/>
+                                    className="form-control" name="" id="" aria-describedby="helpId" placeholder="Usuario"/>
                                 </div>
                                 <div className="row"> 
-                                    <small id="helpId" class="form-text text-muted">Help text</small>
+                                    <small id="helpId" className="form-text text-muted">Help text</small>
                                 </div>    
                             </div>
                         </div>
 
                         <div className="row">
                             <div className="col-5 texto">
-                                  <label for="" class="form-label">*Contraseña:</label>
+                                  <label htmlForm="" className="form-label">*Contraseña:</label>
                             </div>
                             <div className="col-7">
                                 <div className="row">
                                 <input type="text"
-                                    class="form-control" name="" id="" aria-describedby="helpId" placeholder="Contraseña"/>
+                                    className="form-control" name="" id="" aria-describedby="helpId" placeholder="Contraseña"/>
                                 </div>
                                 <div className="row"> 
-                                    <small id="helpId" class="form-text text-muted">Help text</small>
+                                    <small id="helpId" className="form-text text-muted">Help text</small>
                                 </div>    
                             </div>
                         </div>

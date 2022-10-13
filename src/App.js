@@ -12,24 +12,29 @@ import TablaClientes from './componentes/tablas/tablaClientes'
 import TablaAutomiviles from './componentes/tablas/tablaVehiculos'
 import RegistroIngreso from './componentes/insertar/ingresos'
 import RegistroCliente from './componentes/insertar/cliente'
+import EditarUsuario from './componentes/modificar/usuario'
+import EditarEmpleado from './componentes/modificar/empleado'
+
 
 function App() {
   return(
     <Router>
       <Routes>
           <Route path="/" element={<Principal/>}/>
-          <Route path="/logeo" element={<Administrador/>}>
-              <Route index element={<TablaUsuarios/>}></Route>
-              <Route path='empleados' element={<TablaEmpleados/>}></Route>  
-              <Route path='insertuser' element={<InsertarUsuario/>}></Route>
-              <Route path="empleados/insertEmp" element={<InsertarEmpleado/>}></Route>
-          </Route>
-          <Route path="/gestionar" element={<Usuario/>}> 
-              <Route index element={<TablaClientes/>}></Route>
-              <Route path="automoviles" element={<TablaAutomiviles/>}></Route>
-              <Route path="registroIngreso" element={<RegistroIngreso/>}></Route>
-              <Route path="insertCli" element={<RegistroCliente/>}></Route>
-          </Route>
+            <Route path="/logeo" element={<Administrador/>}>
+                <Route index element={<TablaUsuarios/>}></Route>
+                <Route path='empleados' element={<TablaEmpleados/>}></Route>  
+                <Route path='insertuser' element={<InsertarUsuario/>}></Route>
+                <Route path="empleados/insertEmp" element={<InsertarEmpleado/>}></Route>
+                <Route path="editar/:id" element={<EditarUsuario/>}></Route>
+                <Route path="empleados/editar/:id" element={<EditarEmpleado/>}></Route>
+            </Route>
+            <Route path="/gestionar" element={<Usuario/>}> 
+                <Route index element={<TablaClientes/>}></Route>
+                <Route path="automoviles" element={<TablaAutomiviles/>}></Route>
+                <Route path="registroIngreso" element={<RegistroIngreso/>}></Route>
+                <Route path="insertCli" element={<RegistroCliente/>}></Route>
+            </Route>
         </Routes>
     </Router>
   )
