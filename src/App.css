@@ -156,7 +156,16 @@
 .centrar{
   display: flex;
   justify-content: center;
+} 
+
+.tamano-modal{
+  width: 100vw;
 }
+
+.tamano-fila{
+  height: 40px;
+}
+
 
 @media only screen and (width:825px){
     .seccion{

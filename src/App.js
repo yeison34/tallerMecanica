@@ -14,7 +14,7 @@ import RegistroIngreso from './componentes/insertar/ingresos'
 import RegistroCliente from './componentes/insertar/cliente'
 import EditarUsuario from './componentes/modificar/usuario'
 import EditarEmpleado from './componentes/modificar/empleado'
-
+import Vehiculos from './componentes/insertar/vehiculos'
 
 function App() {
   return(
@@ -31,9 +31,9 @@ function App() {
             </Route>
             <Route path="/gestionar" element={<Usuario/>}> 
                 <Route index element={<TablaClientes/>}></Route>
-                <Route path="automoviles" element={<TablaAutomiviles/>}></Route>
                 <Route path="registroIngreso" element={<RegistroIngreso/>}></Route>
                 <Route path="insertCli" element={<RegistroCliente/>}></Route>
+                <Route path="automoviles/:id" element={<Vehiculos/>}></Route>
             </Route>
         </Routes>
     </Router>
