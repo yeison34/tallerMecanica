@@ -15,6 +15,11 @@ import RegistroCliente from './componentes/insertar/cliente'
 import EditarUsuario from './componentes/modificar/usuario'
 import EditarEmpleado from './componentes/modificar/empleado'
 import Vehiculos from './componentes/insertar/vehiculos'
+import EditarCliente from './componentes/modificar/clientes'
+import Productos from './componentes/insertar/productos'
+import TablaProductos from './componentes/tablas/tablaProductos'
+import EditarProductos from './componentes/modificar/producto'
+import Reportes from './componentes/tablas/reportes'
 
 function App() {
   return(
@@ -34,6 +39,12 @@ function App() {
                 <Route path="registroIngreso" element={<RegistroIngreso/>}></Route>
                 <Route path="insertCli" element={<RegistroCliente/>}></Route>
                 <Route path="automoviles/:id" element={<Vehiculos/>}></Route>
+                <Route path="productos" element={<TablaProductos/>}></Route>
+                <Route path="editar/:id" element={<EditarCliente/>}></Route>
+                <Route path="productos/registrarProductos" element={<Productos/>}></Route>
+                <Route path="productos/editar/:id" element={<EditarProductos/>}></Route>
+                <Route path="reportes" element={<Reportes/>}></Route>
+                <Route path="factura" element={<Reportes/>}></Route>
             </Route>
         </Routes>
     </Router>

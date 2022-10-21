@@ -1,7 +1,11 @@
 const Tabla=()=>{
     return(
         <>
-            <div className="container contenedor-ingresos">
+            <div className="contenedor contenedor-ingresos">
+                    <div className="padines">
+                        <center><h3>Plantilla de Ingresos</h3></center>
+                    </div>
+                <div className="container tamano-productos">
                     <div className="row">
                             <div className="col-4">
                                 <div className="row">
@@ -65,7 +69,7 @@ const Tabla=()=>{
                             <div className="col-7">
                                 <div className="row">  
                                         <select>
-                                            <option>Select</option>
+                                            <option>Seleccionar</option>
                                             <option>Mantenimiento</option>
                                             <option>Reparacion</option>
                                         </select>
@@ -148,15 +152,10 @@ const Tabla=()=>{
                                 </div>
                             </div>
                     
-                        <div className="col-4">
-                                <div className="row">
-                                    <div className="col-6">
-                                    </div>
-                                    <div className="col-6">
-                                        <button className="btn btn-success">Registrar Ingreso</button>
-                                    </div>
-                                </div>
+                        <div className="boton-registrar-pr">
+                                <button className="btn btn-success">Registrar Ingreso</button>
                         </div>
+                </div>
                 </div>
             </div>
         </>

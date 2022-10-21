@@ -151,6 +151,7 @@
 .contenedor-ingresos{
   width: 100%;
   height: 82vh;
+  padding: auto 0;
 }
 
 .centrar{
@@ -166,6 +167,25 @@
   height: 40px;
 }
 
+.tamano-productos{
+  height: 250px;
+  width: 100%;
+}
+
+.alinear{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boton-registrar-pr{
+  margin-top: 50px;
+  float: right;
+}
+
+.padines{
+  padding: 50px 0;
+}
 
 @media only screen and (width:825px){
     .seccion{

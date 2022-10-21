@@ -15,7 +15,7 @@ const Mostrar=(props)=>{
                 if(respuesta){
                     setVehiculos(respuesta);
                 }else{
-                    console.log("no hay refgistros");
+                    console.log("no hay registros");
                 }
                 
             })
@@ -26,7 +26,7 @@ const Mostrar=(props)=>{
         cargarVehiculos()
     },[props.activar]);
     return(
-        <Modal show={props.activar} onHide={!props.activar}>
+        <Modal show={props.activar} onHide={!props.activar} size="lg">
             <Modal.Header>
                 Vehiculos Registrados
             </Modal.Header>
@@ -39,6 +39,7 @@ const Mostrar=(props)=>{
                                     <th scope="col">Modelo</th>
                                     <th scope="col">Color</th>
                                     <th scope="col">Marca</th>
+                                    <th scope="col">Ciudad</th>
                                     <th scope="col">Observacion</th>
                                 </tr>
                             </thead>
@@ -50,7 +51,8 @@ const Mostrar=(props)=>{
                                         <td>{vehiculo.modelo}</td>
                                         <td>{vehiculo.color}</td>
                                         <td>{vehiculo.marca}</td>
-                                        <td>{vehiculo.placa}</td>
+                                        <td>{vehiculo.nom}</td>
+                                        <td></td>
                                     </tr>
                                 ))
                                 }

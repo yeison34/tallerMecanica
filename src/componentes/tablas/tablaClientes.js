@@ -7,6 +7,7 @@ import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 import { FormControl, FormLabel, FormSelect } from 'react-bootstrap';
 import Vehiculos from './../modal/modal';
+
 const Tabla=()=>{
     const[datos,setDatos]=useState([]);
     const[recargar,setRecargar]=useState(false);
@@ -39,7 +40,7 @@ const Tabla=()=>{
     function eliminar(id){
         var opcion=window.confirm("Esta Seguro de Eliminar Al Usuario");
         if(opcion){
-            fetch("http://localhost/taller/empleados/?eliminar="+id)
+            fetch("http://localhost/taller/clientes/?eliminar="+id)
             .then(datosRespuesta=>datosRespuesta.json())
             .then(respuesta=>{
                 //console.log(respuesta);
@@ -49,6 +50,7 @@ const Tabla=()=>{
         }else{
             setRecargar(!recargar);
         }
+        //console.log(id);
     }
 
     const capturarDatos=(e)=>{
@@ -95,7 +97,7 @@ const Tabla=()=>{
                                             <td>{clientes.email}</td>
                                             <td>{clientes.nombre}</td>
                                             <td><button className='btn btn-success' onClick={()=>{setOpen(!isOpen);setId(clientes.cedula)}}>Ver</button></td>
-                                            <td><Link to={`automoviles/${clientes.cedula}`}><button className='btn btn-outline-secondary'>Mas</button></Link><button className="btn btn-primary botones-gestion">Editar</button><button className="btn btn-danger">Eliminar</button></td>
+                                            <td><Link to={`automoviles/${clientes.cedula}`}><button className='btn btn-outline-secondary'>Mas</button></Link><Link to={`editar/${clientes.cedula}`}><button className="btn btn-primary botones-gestion">Editar</button></Link></td>
                                         </tr>
                                     ))
                                 }
